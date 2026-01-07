@@ -21,3 +21,12 @@ A frontend JavaScript-based wallet simulation app.
 
 ## Purpose
 Learning DOM manipulation, events, and JS logic.
+
+## Demo Login Passwords (For Testing Only)
+
+These passwords are hardcoded for demo purposes only.
+
+- vikash → 1212
+- rahul → 7272
+- rohit → 1313
+- admin → 4545
