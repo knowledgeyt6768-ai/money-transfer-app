@@ -10,8 +10,8 @@ let user = {
         paisa: 1000,
         password: 1212
     },
-    geet: {
-        later: "G",
+    rohit: {
+        later: "Rh",
         paisa: 1000,
         password: 1313
     },
@@ -26,7 +26,7 @@ let user = {
 
 function reload() {
     document.querySelector(".show-price-admin").innerHTML = user.admin.paisa.toLocaleString("en-IN");
-    document.querySelector(".show-price-geet").innerHTML = user.geet.paisa.toLocaleString("en-IN");
+    document.querySelector(".show-price-rohit").innerHTML = user.geet.paisa.toLocaleString("en-IN");
     document.querySelector(".show-price-rahul").innerHTML = user.rahul.paisa.toLocaleString("en-IN");
     document.querySelector(".show-price-vikash").innerHTML = user.vikash.paisa.toLocaleString("en-IN");
 }
@@ -89,5 +89,6 @@ function main(name) {
     reload();
 
 }
+
 
 reload();
